@@ -9,12 +9,35 @@ h1{
     font-size: 250%;
 }
 
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#24034e;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:rgb(173, 74, 240);
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    }
+
 p{
     color:beige;
     font-size: 180%;
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.background-for-text{
+    background-color: rgba(53, 4, 133, 0.856);
 }
 
 /* .sign p{
@@ -47,7 +70,8 @@ figcaption{
 } */
 
 .nav {
-    background-color: rgb(99, 8, 218); 
+    background-color: rgb(164, 86, 236);
+    /* background-color: rgb(99, 8, 218);  */
     padding: 15px;
     list-style-type: none;
     text-align: center;
@@ -103,7 +127,7 @@ figcaption{
 }
 @media (min-width: 576px) {
   .modal-dialog {
-      max-width: 500px;
+      max-width: 1000px;
       margin: 30px auto; /* для отображения модального окна по центру */
   }
 }
@@ -119,7 +143,7 @@ figcaption{
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #fff;
+    background-color: rgb(90, 46, 170);
     color: #000;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -154,7 +178,7 @@ figcaption{
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.5;
-    font-size: 1.25rem;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 /* свойства для кнопки "Закрыть" */
